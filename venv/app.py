@@ -26,5 +26,8 @@ def search():
         "isYahooFinance": financial_info["quotes"][0]["isYahooFinance"],
     }), status=200, mimetype="application/json")
 
+@app.route ("/api/current-price")
+def current_price():
+    return "Hello, Jose Nice 2me2"
 
     #http://127.0.0.1:5000/api/search/?params=ko
